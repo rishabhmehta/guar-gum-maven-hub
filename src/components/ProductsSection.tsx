@@ -1,5 +1,5 @@
 
-import { Package, Flask, Food } from "lucide-react";
+import { Package, FlaskConical, Utensils } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -18,7 +18,7 @@ const ProductsSection = () => {
           <Card className="border-t-4 border-t-guar-500">
             <CardHeader className="pb-4">
               <div className="w-12 h-12 rounded-full bg-guar-50 flex items-center justify-center mb-4">
-                <Food className="h-6 w-6 text-guar-600" />
+                <Utensils className="h-6 w-6 text-guar-600" />
               </div>
               <CardTitle className="text-2xl text-guar-700">Food Grade Guar Gum</CardTitle>
             </CardHeader>
@@ -57,7 +57,7 @@ const ProductsSection = () => {
           <Card className="border-t-4 border-t-guar-500">
             <CardHeader className="pb-4">
               <div className="w-12 h-12 rounded-full bg-guar-50 flex items-center justify-center mb-4">
-                <Flask className="h-6 w-6 text-guar-600" />
+                <FlaskConical className="h-6 w-6 text-guar-600" />
               </div>
               <CardTitle className="text-2xl text-guar-700">Industrial Grade Guar Gum</CardTitle>
             </CardHeader>

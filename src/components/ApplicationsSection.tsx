@@ -1,6 +1,6 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ChartBar, FileText } from "lucide-react";
+import { ChartBar, FileText, FlaskConical, Utensils } from "lucide-react";
 
 const FoodApplications = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -138,11 +138,11 @@ const ApplicationsSection = () => {
           <div className="flex justify-center mb-8">
             <TabsList className="grid grid-cols-2 w-full max-w-md">
               <TabsTrigger value="food" className="flex items-center gap-2">
-                <Food className="h-4 w-4" />
+                <Utensils className="h-4 w-4" />
                 <span>Food Grade</span>
               </TabsTrigger>
               <TabsTrigger value="industrial" className="flex items-center gap-2">
-                <Flask className="h-4 w-4" />
+                <FlaskConical className="h-4 w-4" />
                 <span>Industrial Grade</span>
               </TabsTrigger>
             </TabsList>
