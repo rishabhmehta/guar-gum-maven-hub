@@ -40,13 +40,13 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <address className="not-italic text-guar-100">
-              E 261, 262, 263,<br />
-              RIICO Agrofood Park,<br />
-              Boranada, Jodhpur 342001,<br />
-              Rajasthan, India
+              123 Green Valley Road,<br />
+              Industrial Zone B,<br />
+              Cityville, 54321,<br />
+              Lorem State, Country
             </address>
             <p className="mt-4 text-guar-100">
-              Email: <a href="mailto:info@sriguargum.com" className="hover:text-white">info@sriguargum.com</a>
+              Email: <a href="mailto:contact@example.com" className="hover:text-white">contact@example.com</a>
             </p>
           </div>
         </div>
